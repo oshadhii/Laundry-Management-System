@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         
+         
+         
+         
+         
+         
+         <servlet>
+         	<servlet-name>customer_servlet</servlet-name>
+         	<servlet-class>pack_customer.customer_servlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>customer_servlet</servlet-name>
+         	<url-pattern>/insert</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>view_servlet</servlet-name>
+         	<servlet-class>pack_customer.view_servlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>view_servlet</servlet-name>
+         	<url-pattern>/read</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+        	<servlet-name>delete_servlet</servlet-name>
+        	<servlet-class>pack_customer.delete_servlet</servlet-class>
+        </servlet>
+        
+        <servlet-mapping>
+        	<servlet-name>delete_servlet</servlet-name>
+        	<url-pattern>/delete</url-pattern>
+        </servlet-mapping>
+        
+         <servlet>
+        	<servlet-name>update_servlet</servlet-name>
+        	<servlet-class>pack_customer.update_servlet</servlet-class>
+        </servlet>
+        
+        <servlet-mapping>
+        	<servlet-name>update_servlet</servlet-name>
+        	<url-pattern>/update</url-pattern>
+        </servlet-mapping>
+        
+         
+         
+        
+        
+        
+        
+ 
+        
+        
+
+         
+</web-app>

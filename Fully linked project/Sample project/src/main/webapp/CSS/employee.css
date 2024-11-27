@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+	
+}
+.employee-form{
+	position:relative;
+	min-height: 100vh;
+	z-index: 0;
+	background:#7393B3;
+	padding:30px;
+	justify-content:center;
+	display:grid;
+	grid-template-rows: 1fr auto 1fr;
+	align-items:center;
+}
+.container{
+	max-width:1000px;
+	margin-top:0 auto;
+}
+.employee-form h1{
+	text-align:center;
+	font-size:2.5rem;
+	font-weight:400;
+	color:#fff;
+	font-family:'poppins';
+}
+.employee-form h2{
+	line-height:40px;
+	margin-bottom:5px;
+	margin-left:7px;
+	font-size:30px;
+	font-weight:500;
+	color:#666362;
+	text-align:center;
+	
+}
+.employee-form .main{
+	position:relative;
+	display:flex;
+	margin:30px 0;
+}
+.content{
+	flex-basis:75%;
+	padding:3em 10em;
+	background:#fff;
+	box-shadow:2px 9px 49px -17px rgba(0,0,0,0,1);
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	
+}
+.form-img{
+	flex-basis: 50%;
+	background:#f0f4f8;
+	background-size:cover;
+	padding:40px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	align-items:center;
+	display:grid;
+}
+.form-img img{
+	max-width:100%;
+}
+.btn,
+button,
+input{
+	border-radius:35px;
+}
+/*.btn:hover,
+button:hover{
+	color:#97359c;
+	transition:0.5s ease;
+}
+.employee-form form{
+	margin: 30px 0;
+}*/
+.button,
+button,
+input {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Button hover */
+.button:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+.employee-form input,
+textarea{
+	outline:none;
+	margin-bottom:15px;
+	font-stretch:16px;
+	color:#999;
+	padding:14px 20px;
+	width:100%;
+	display:inline-block;
+	box-sizing:border-box;
+	border:none;
+	background:#fcfcfc;
+	transition:0.3s ease;
+}
+.employee-form input:focus{
+	background:transparent;
+	border:1px solid #69275c;
+}
+.employee-form button{
+	font-size:18px;
+	color:#fff;
+	background:#7393B3;
+	font-weight:600;
+	transition:0.3s ease;
+	padding:14px 15px
+}
